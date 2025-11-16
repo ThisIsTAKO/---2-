@@ -649,6 +649,7 @@ class VoIPSecurityGuide:
         title_label = tk.Label(text_frame, text=title, font=('Arial', 18, 'bold'),
                               bg='#34495e', fg='#3498db', anchor='w')
         title_label.pack(fill=tk.X, pady=(0, 15))
+        
         desc_label = tk.Label(text_frame, text=description, font=('Arial', 15),
                              bg='#34495e', fg='#ecf0f1', anchor='w', justify=tk.LEFT)
         desc_label.pack(fill=tk.BOTH, expand=True)
